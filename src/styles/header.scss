@@ -1,4 +1,5 @@
 .header{
+    // overflow-y: hidden;
     .nav{
         width: 100%;
         padding: 1rem;
@@ -6,9 +7,6 @@
         @include flex-layout(row,space-between,center);
         background-color: var(--color-primary);
         color: var(--color-sub2);
-        @include desktop{
-            padding-left: 61rem;
-        }
         .header-bar,.header-user,.header-cart{
             background-color: transparent;
             border: none;
@@ -21,14 +19,20 @@
                 filter: brightness(80%);
             }
         }
-        .menu-bar{
+        .header-bar{
         @include tablet{
             display: none;
         }
+        @include desktop{
+            display: none;
         }
-        h1{
-            @include font-En-title;
-            font-size: 1.5rem;
+        }
+        // h1{
+        //     @include font-En-title;
+        //     font-size: 1.5rem;
+        // }
+        img{
+            width:12rem;
         }
         .nav-icon{
             font-size: 1.5rem;

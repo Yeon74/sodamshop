@@ -1,22 +1,26 @@
 [
   {
     "idx": 1,
-    "title": "포레스트 그린 체어",
-    "img": "./images/product/SOPA.png"
+    "title": "Forest Green Chair",
+    "img": "./images/product/SOPA.png",
+    "description": "자연을 담은 편안한 그린 의자"
   },
   {
     "idx": 2,
-    "title": "모던 그레이 무드 소파",
-    "img": "./images/product/SOPA2.png"
+    "title": "Modern Gray Mood Sofa",
+    "img": "./images/product/SOPA2.png",
+    "description": "공간에 세련된 무드를 더해줄 그레이 소파"
   },
   {
     "idx": 3,
-    "title": "베이지 린넨 커튼",
-    "img": "./images/product/CURTAIN.png"
+    "title": "Beige Linen Curtain",
+    "img": "./images/product/CURTAIN.png",
+    "description": "따뜻한 햇살을 담는 베이지 린넨 커튼"
   },
   {
     "idx": 4,
-    "title": "소담 우드 선반",
-    "img": "./images/product/SHELF.png"
+    "title": "Simple Wood Storage Shelf",
+    "img": "./images/product/SHELF.png",
+    "description": "공간을 아늑하게 채울 내추럴 우드 선반"
   }
 ]

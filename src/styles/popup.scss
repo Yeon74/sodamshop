@@ -9,13 +9,26 @@
         height: 12rem;
         background-color:rgba(255,255,255,0.6);
         @include flex-layout;
+        word-break: keep-all;
+        @include tablet{
+            top: -14.5rem;
+            left: 1.2rem;
+            width: 10.5rem;
+            height: 12.5rem;
+        }
         @include desktop{
-            top: -18rem;
+            top: -21rem;
             left: 1.3rem;
+            width: 18rem;
+            height: 19rem;
         }
         img{
             width: 80px;
             height: 95px;
+            @include tablet{
+                width: 75px;
+                height: 70px;
+            }
             @include desktop{
                 width: 130px;
                 height: 130px;
@@ -26,19 +39,21 @@
             @include font-ko-btn;
             font-weight: bolder;
         }
-        @include desktop{
-            width: 15rem;
-            height: 16rem;
-        }
         .popup-card2{
             width: 8.5rem;
             height: 11rem;
             background-color:rgba(255,255,255,0.8);
         @include flex-layout(column,center,center);
-        gap: 1rem;
+        padding: 0.4rem;
+        @include tablet{
+            width: 9.5rem;
+            height: 11.5rem;
+            padding: 0.4rem;
+        }
         @include desktop{
-            width: 14rem;
-            height: 15rem;
+            width: 17rem;
+            height: 18rem;
+            padding: 0.8rem;
     }
     }
 }

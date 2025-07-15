@@ -1,13 +1,15 @@
 import React from 'react';
 import productsData from '../assets/Easy.json';
 import '../styles/cardeasy.scss';
+import { MdEco } from "react-icons/md";
+
 
 const Cardeasy = () => {
   const products = productsData.products;
-
+  
   return (
     <section className="cardeasy">
-      <h2 className="cardeasy__title">Eco & Natural(친환경 & 내추럴)</h2>
+      <h2 className="cardeasy__title">Eco & Natural<MdEco /></h2>
       <div className="cardeasy__list">
         {products.map(product => (
           <div className="cardeasy__item" key={product.product_id}>

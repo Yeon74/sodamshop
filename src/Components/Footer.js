@@ -16,7 +16,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="foot-note">
-          <button className="foter-btn" >Notice</button>
+          <button className="foter-btn">Notice</button>
           <ul>
             <li>새로운 소식</li>
             <li>베스트 셀러</li>
@@ -28,7 +28,7 @@ const Footer = () => {
         <p>신상품 소식과 할인 혜택을 받아보세요</p>
         <div className="email-input">
           <input placeholder="이메일 주소를 입력하세요" />
-          <button className="foter-btn" >신청하기</button>
+          <button className="foter-btn">신청하기</button>
         </div>
       </div>
     </footer>

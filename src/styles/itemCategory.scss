@@ -1,6 +1,6 @@
 #category{
   width: 400px;
-  margin: 3rem auto;
+  margin: 4rem auto;
   text-align: center;
   *{ margin: 5px 0; }
   @include tablet{
@@ -11,6 +11,7 @@
     margin: 4rem auto;
   }
   ul{
+    gap: 10px;
     @include flex-layout();
     flex-wrap: wrap;
     img{ width: 17px; height: 17px; }
@@ -20,15 +21,22 @@
     @include desktop{
       img{ width: 40px; height: 40px; }
     }
-    gap: 5px;
     li{
       @include flex-layout(row,center,center);
       width: 85px;
       height: 35px;
       padding: 5px;
-      border: 1px solid var(--color-gray);
+      border: 1px solid #ddd;
+      background-color: var(--color-white);
+      color: var(--color-black);
       border-radius: 25px;
       gap: 4px;
+      cursor: pointer;
+      &:hover{
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        // opacity: 1;
+      }
       @include tablet{
         @include flex-layout(row,center,center);
         width: 111px;
@@ -36,8 +44,8 @@
       }
       @include desktop{
         @include flex-layout(row,center,center);
-        width: 150px;
-        height: 60px;
+        width: 135px;
+        height: 48px;
         border-radius: 35px;
       }
     }

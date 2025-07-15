@@ -4,7 +4,7 @@
       "product_id": "P000123",
       "product_name": "미니멀 블랙 워크테이블",
       "category": "책상",
-      "price": 450000,
+      "price": 200000,
       "material": "고무나무, MDF",
       "color": "블랙",
       "main_image_url": "/images/easy/easyDesk.jpg"
@@ -13,43 +13,43 @@
       "product_id": "P000124",
       "product_name": "프레임 오픈 옷걸이",
       "category": "수납",
-      "price": 450000,
+      "price": 130000,
       "material": "고무나무, 철제",
-      "color": "내추럴 우드블랙",
+      "color": "내추럴 우드",
       "main_image_url": "/images/easy/easyHanger.jpg"
     },
     {
       "product_id": "P000125",
       "product_name": "소프트 웨이브 2인용 소파",
       "category": "소파",
-      "price": 450000,
+      "price": 350000,
       "material": "패브릭,고무나무",
-      "color": "그레이",
+      "color": "화이트",
       "main_image_url": "/images/easy/easySopa.jpg"
     },
     {
       "product_id": "P000126",
-      "product_name": "천연 원목 수납 벤치 & 신발 정리대",
+      "product_name": "천연 원목 수납 벤치",
       "category": "수납",
-      "price": 450000,
+      "price": 80000,
       "material": "고무나무",
       "color": "내추럴 우드",
       "main_image_url": "/images/easy/easyShoeRack.jpg"
     },
     {
       "product_id": "P000127",
-      "product_name": "미니멀 우드 사이드테이블",
+      "product_name": "미니멀 우드 사이드 테이블",
       "category": "테이블",
-      "price": 180000,
+      "price": 120000,
       "material": "참나무",
       "color": "모닝화이트",
       "main_image_url": "/images/easy/easyTable.jpg"
     },
     {
       "product_id": "P000128",
-      "product_name": "프리미엄 1인용 패브릭가죽체어",
+      "product_name": "프리미엄 1인용 패브릭 가죽 체어",
       "category": "의자",
-      "price": 890000,
+      "price": 250000,
       "material": "가죽,패브릭",
       "color": "브라운엘라",
       "main_image_url": "/images/easy/easyChair.jpg"

@@ -2,6 +2,7 @@ import { FaBars } from "react-icons/fa6";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { PiUserCircleFill } from "react-icons/pi";
 
+
 import { useNavigate } from "react-router-dom";
 
 const Header = ({isOpen,setIsOpen}) => {
@@ -10,8 +11,8 @@ const Header = ({isOpen,setIsOpen}) => {
         <div className="header">
             <div className="nav">
             <button className="header-bar" onClick={()=>{setIsOpen(!isOpen)}}><FaBars /></button>
-            <h1>Sodam Shop</h1>
-            {/* <img src='./image/head-logo.png' alt="로고 이미지"/> */}
+            <img onClick={()=>{navigate('/')}} src={`${process.env.PUBLIC_URL}/images/head-logo.png`} alt="head logo image"/>
+            {/* <h1>Sodam Shop</h1> */}
             <div className="nav-icon">
             <button className="header-user"><PiUserCircleFill /></button>
             <button className="header-cart" onClick={()=>{navigate('/cart')}}><MdOutlineShoppingBag /></button>

@@ -4,18 +4,26 @@
 .cardeasy {
   font-family: 'Poppins', sans-serif;
   max-width: 1440px;
-  margin: 2rem auto;
+  margin: 5rem auto;
 
   .cardeasy__title {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1rem;
-
+  margin-left: 1rem;
+  @include font-En-title;
+  
   @media (min-width: 768px) {
     font-size: 2rem;
   }
 }
-
+  p{
+    text-align: right;
+  }
+  h3{
+    text-align: right;
+    word-break: keep-all;
+  }
 
   &__list {
     display: grid;
@@ -30,9 +38,8 @@
   }
 
   &__item {
-    background-color: var(--color-sub2);
+    background-color: var(--color-white);
     border: 1px solid #ddd;
-    border-radius: 10px;
     padding: 1rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -52,7 +59,6 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 10px;
     margin-bottom: 0.75rem;
     img {
       width: 100%;
@@ -64,14 +70,13 @@
 
   &__badge {
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 20px;
+    left: 21px;
     background: var(--color-primary);
     color: var(--color-white);
-    font-weight: bold;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1rem;
     z-index: 1;
   }
 
@@ -86,7 +91,7 @@
   &__material,
   &__color {
     font-size: 0.85rem;
-    color: var(--color-gray);
+    // color: var(--color-gray);
     margin-bottom: 0.25rem;
   }
 
@@ -94,7 +99,7 @@
     font-weight: 700;
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: var(--color-primary);
+    // color: var(--color-gray);
   }
 
   &__button {
@@ -109,7 +114,7 @@
     transition: background-color 0.3s ease;
     margin-top: auto;
     min-width: 140px;
-    min-height: 44px;
+    min-height: 40px;
     box-sizing: border-box;
 
     &:hover {
